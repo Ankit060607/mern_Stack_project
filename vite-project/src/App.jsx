@@ -6,10 +6,12 @@ import Signin from './components/Signin'
 import Singout from './components/Singout'
 import Dashboard from './components/Dashboard'
 import Projects from './components/Projects'
+import Header from './newpages/Header'
 
 const App = () => {
   return (
    <BrowserRouter>
+   <Header/>
    <Routes>
    <Route path="/" element={<Home/>}/>
    <Route path="/about" element={<About/>}/>
